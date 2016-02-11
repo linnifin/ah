@@ -1,0 +1,57 @@
+body {
+	background-color: orange;
+}
+
+#artist {
+	width: 200px;
+	height: 600px;
+	background-color: purple;
+	font-family: helvetica, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	float: left;
+}
+
+#sculptor {
+	width: 200px;
+	height: 100px;
+	background-color: red;
+	color: white;
+	float: left;
+}
+
+#circle {
+	width: 200px;
+	height: 100px;
+	background-color: yellow;
+	float: left;
+}
+
+#container {
+	width: 600px;
+	height: 800px; 
+	background-color: white;
+	float: center;
+	padding: 30px;
+	margin: auto;
+}
+
+#wat {
+	width: 25%;
+	height: 40%;
+	background-color: red;
+	margin: left;
+	font-family: helvetica, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	padding: 30px;
+}
+
+.sidebar {
+	width: 500px;
+	height: 200px;
+	background-color: green;
+	color: white;
+	font-size: 12px;
+
+}
