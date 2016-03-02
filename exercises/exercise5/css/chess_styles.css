@@ -1,0 +1,17 @@
+#container{
+	width: 800px;
+	height: 800px;
+}
+
+#red{
+	width: 100px;
+	height: 100px;
+	float: left;
+	background-color: red;
+}
+
+#white{
+	width: 100px;
+	height:100px;
+	float: left;
+}

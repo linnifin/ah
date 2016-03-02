@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>column_grid</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/grid_styles.css">
+    </head>
+
+<body>
+
+	<div class="container">
+
+		<div id="top">
+		</div>
+
+		<div id="bar">
+		</div>
+
+		<div id="col1">
+		</div>
+
+		<div id="col1">
+		</div>
+
+		<div id="col2">
+		</div>
+
+		<div id="bottom">
+		</div>
+
+
+	</div>
+
+</body>
+
+
+</html>

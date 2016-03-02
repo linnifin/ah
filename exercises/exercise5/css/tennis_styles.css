@@ -1,0 +1,97 @@
+#container{
+	width: 1020px;
+	height: 1350px;
+}
+
+#black {
+	width: 200px;
+	height: 648px;
+	float: left;
+	background-color: black;
+}
+
+#mum{
+	width: 600px;
+	height: 648px;
+	float: left;
+	margin-left: 10px;
+}
+
+#red{
+	width: 600px;
+	height: 200px;
+	float: top;
+	margin-bottom: 10px;
+	background-color: red;
+}
+
+#blue{
+	width:295px;
+	height: 438px;
+	float: left;
+	margin-right: 10px;
+	background-color: blue;
+}
+
+#purple{
+	width:295px;
+	height: 438px;
+	float: left;
+	background-color: purple;
+}
+
+#green{
+	width: 200px;
+	height: 648px;
+	float: left;
+	background-color: green;
+	margin-left: 10px;	
+}
+
+#orange {
+	width: 200px;
+	height: 648px;
+	float: left;
+	background-color: orange;
+	margin-top: 10px;
+}
+
+#pap{
+	width: 600px;
+	height: 648px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#yellow{
+	width: 600px;
+	height: 200px;
+	float: left;
+	margin-top: 10px;
+	background-color: yellow;
+}
+
+#blue2{
+	width:295px;
+	height: 438px;
+	float: left;
+	margin-right: 10px;
+	background-color: blue;
+}
+
+#purple2{
+	width:295px;
+	height: 438px;
+	float: left;
+	background-color: purple;
+}
+
+#black2 {
+	width: 200px;
+	height: 648px;
+	float: left;
+	background-color: black;
+	margin-top: 10px;
+	margin-left: 10px;
+}

@@ -1,0 +1,36 @@
+.container{
+	width: 800px;
+	height: 1400px;
+}
+
+#header{
+	width: 800px;
+	height: 150px;
+	float: left;
+	margin-bottom: 75px;
+	background-color: purple;
+}
+
+#post{
+	width: 640px;
+	height: 380px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: purple;
+}
+
+#info{
+	width: 150px;
+	height: 175px;
+	float: left;
+	background-color: purple;
+}
+
+#tags{
+	width: 640px;
+	height: 40px;
+	float: left;
+	margin-bottom: 75px;
+	background-color: purple;
+}
