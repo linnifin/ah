@@ -1,0 +1,56 @@
+.container{
+	width: 1600px;
+	height: 800px;
+	background-color: green;
+}
+
+.ca1{
+	width: 500px;
+	height: 760px;
+	background-color: white;
+	float: left;
+	margin: 20px;
+}
+
+.ca1_1{
+	width: 498px;
+	height: 758px;
+	float: center;
+	margin: 1px;
+}
+
+.ca1_2{
+	width: 372px;
+	height: 321px;
+	float:left;
+}
+
+
+#smol{
+	width: 61px;
+	height: 107px;
+	background-color: green;
+	float: left;
+	margin-right: 1px;
+	margin-bottom: 1px;
+}
+
+#big{
+	width: 124px;
+	height: 321px;
+	background-color: green;
+	float: left;
+}
+
+#long{
+	width: 61px;
+	height: 214px;
+	background-color: green;
+	float: left;
+	margin-right: 1px;
+	margin-bottom: 1px;
+}
+
+#mid{
+	width: ;
+}
