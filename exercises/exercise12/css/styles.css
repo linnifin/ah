@@ -1,0 +1,45 @@
+.box1{
+	background: yellow;
+	color: blue;
+	font-size: 30px;
+	width: 200px;
+	height: 100px;
+	font-family: Helvetica;
+	margin-bottom: 300px;
+	padding: 30px;
+	float: left;
+}
+
+.box2{
+	background: pink;
+	color: black;
+	font-size: 100px;
+	width: 1000px;
+	height: 100px;
+	font-family: Helvetica;
+	margin-top: 40px;
+	text-align: center;
+	padding: 30px;
+}
+
+.box3{
+	background: orange;
+	color: green;
+	font-size: 40px;
+	width: 200px;
+	height: 100px;
+	font-family: Helvetica;
+	padding: 30px;
+	float: left;
+}
+
+.box4{
+	background: blue;
+	color: orange;
+	font-size: 40px;
+	width: 200px;
+	height: 100px;
+	font-family: Helvetica;
+	padding: 30px;
+	float: left;
+}
