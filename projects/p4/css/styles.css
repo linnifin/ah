@@ -1,5 +1,5 @@
 body{
-	background-color: #00C6D1;
+	background-color: #BB853E;
 }
 
 #container{
@@ -30,7 +30,7 @@ body{
 }
 
 .bloc1:hover{
-	color: #52770B
+	color: #616300;
 }
 
 div .bloc1 p{
@@ -213,7 +213,7 @@ div #bloc6 p{
 }
 
 .bloc7:hover{
-	color: #268D0B;
+	color: #383806;
 }
 
 div .bloc7 p{
@@ -238,7 +238,7 @@ div .bloc7 p{
 }
 
 .bloc8:hover{
-	color: #588429;
+	color: #3B4713;
 }
 
 div .bloc8 p{
@@ -288,7 +288,7 @@ div .bloc9 p{
 }
 
 .bloc10:hover{
-	color: #773B02;
+	color: #4F480B;
 }
 
 div .bloc10 p{
@@ -363,7 +363,7 @@ div .bloc12 p{
 }
 
 .bloc13:hover{
-	color: #4F3000;
+	color: #2A3000;
 }
 
 div .bloc13 p{
