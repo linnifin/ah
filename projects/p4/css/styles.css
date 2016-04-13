@@ -3,9 +3,10 @@ body{
 }
 
 #container{
-	width:1400px;
+	width: 1600px;
 	margin: 0px auto;
 	height: 2500px;
+	float: center;
 }
 
 @media screen and(max-width: 1399px){
@@ -17,7 +18,7 @@ body{
 @import url(https://fonts.googleapis.com/css?family=Teko:600);
 
 .bloc1{
-	width: 300px;
+	width: 330px;
 	height: 175px;
 	float: left;
 	margin: 15px;
@@ -37,12 +38,12 @@ div .bloc1 p{
 	padding: 0px;
 	margin-left: -8px;
 	margin-right: 0px;
-	margin-top: 0px;
-	margin-bottom: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .bloc2{
-	width: 385px;
+	width: 405px;
 	height: 175px;
 	float: left;
 	margin: 15px;
@@ -62,50 +63,58 @@ div .bloc2 p{
 	padding: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
-	margin-top: 0px;
-	margin-bottom: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
-#bloc3{
-	width:605px;
+.bloc3{
+	width: 645px;
 	height: 175px;
 	float: left;
 	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
 	font-size: 274px;
-	color: #5E1A02;
+	color: black;
 	text-align: left;
 	line-height: 175px;
 }
 
-div #bloc3 p{
+.bloc3:hover{
+	color: #5E1A02;
+}
+
+div .bloc3 p{
 	padding: 0px;
 	margin-left: -8px;
 	margin-right: 0px;
-	margin-top: 0px;
-	margin-bottom: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
-#bloc4{
-	width: 452px;
+.bloc4{
+	width: 492px;
 	height: 175px;
 	float: left;
 	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
 	font-size: 274px;
-	color: #5E1A02;
+	color: black;
 	text-align: left;
 	line-height: 175px;
 }
 
-div #bloc4 p{
+.bloc4:hover{
+	color: #5E1A02;
+}
+
+div .bloc4 p{
 	padding: 0px;
 	margin-left: -8px;
 	margin-right: 0px;
-	margin-top: 0px;
-	margin-bottom: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .bloc5{
@@ -116,8 +125,8 @@ div #bloc4 p{
 	margin-left: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
-	font-size: 300px;
-	color: #E81400;
+	font-size: 700px;
+	color: #FE1600;
 	text-align: left;
 	line-height: 300px;
 	letter-spacing: -16px;
@@ -125,40 +134,41 @@ div #bloc4 p{
 
 div .bloc5 p{
 	padding: 0px;
-	margin-left: -3px;
+	margin-left: -300px;
 	margin-right: 0px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 150px;
+	margin-bottom: 200px;
 }
 
 
 #container2{
-	width:620px;
-	height: 650px;
+	width:800px;
+	height: 900px;
 	z-index: 1;
 	float: left;
 	margin-left: 160px;
 }
 
 #container3{
-	width:452px;
-	height: 650px;
+	width: 1500px;
+	height: 1900px;
 	z-index: 0;
 	float: left;
 }
 
 #container4{
-	width:1390px;
+	width:1600px;
 	height: 205px;
 	float: left;
 	margin-top: 15px;
 }
 
 #container5{
-	width: 1400px;
-	height: 205px;
+	width: 1600px;
+	height: 900px;
 	float: left;
 	margin-top: 15px;
+	margin-left: -30px;
 }
 
 #container6{
@@ -168,9 +178,11 @@ div .bloc5 p{
 }
 
 #container7{
-	width: 900px;
-	height: 650px;
+	width: 1400px;
+	height: 600px;
 	float: left;
+	margin-top: 100px;
+	margin-left: -360px;
 }
 
 #bloc6{
@@ -191,18 +203,15 @@ div #bloc6 p{
 	padding: 0px;
 	margin-left: -3px;
 	margin-right: 0px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .bloc7{
-	width: 452px;
+	width: 482px;
 	height: 175px;
 	float: left;
-	margin-top: 60px;
-	margin-left: 15px;
-	margin-right: 15px;
-	margin-bottom: 15px;
+	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
 	font-size: 274px;
@@ -225,10 +234,10 @@ div .bloc7 p{
 }
 
 .bloc8{
-	width: 280px;
+	width: 310px;
 	height: 175px;
 	float: left;
-	margin:15px;
+	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
 	font-size: 274px;
@@ -250,10 +259,10 @@ div .bloc8 p{
 }
 
 .bloc9{
-	width:40px;
+	width: 70px;
 	height: 175px;
 	float: left;
-	margin:15px;
+	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
 	font-size: 274px;
@@ -300,7 +309,7 @@ div .bloc10 p{
 }
 
 .bloc11{
-	width: 480px;
+	width: 510px;
 	height: 175px;
 	float: left;
 	margin: 15px;
@@ -325,7 +334,7 @@ div .bloc11 p{
 }
 
 .bloc12{
-	width: 185px;
+	width: 205px;
 	height: 175px;
 	float: left;
 	margin: 15px;
@@ -350,7 +359,7 @@ div .bloc12 p{
 }
 
 .bloc13{
-	width: 510px;
+	width: 540px;
 	height: 175px;
 	float: left;
 	margin: 15px;
@@ -375,7 +384,7 @@ div .bloc13 p{
 }
 
 .bloc14{
-	width: 345px;
+	width: 375px;
 	height: 175px;
 	float: left;
 	margin: 15px;
@@ -425,14 +434,14 @@ div .bloc15 p{
 }
 
 .bloc16{
-	width: 1080px;
-	height: 300px;
+	width: 1670px;
+	height: 600px;
 	float: left;
 	margin: 100px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
-	font-size: 400px;
-	color: #E81400;
+	font-size: 700px;
+	color: #FE1600;
 	text-align: left;
 	line-height: 300px;
 	letter-spacing: -16px;
@@ -440,13 +449,13 @@ div .bloc15 p{
 
 div .bloc16 p{
 	padding: 0px;
-	margin-left: 0px;
+	margin-left: -150px;
 	margin-right: 0px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
 
-#bloc17{
+.bloc17{
 	width: 390px;
 	height: 105px;
 	float:left;
@@ -457,15 +466,19 @@ div .bloc16 p{
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
 	font-size: 175px;
-	color: #5E1A02;
+	color: black;
 	text-align: left;
 	line-height: 175px;
 }
 
-div #bloc17 p{
+.bloc17:hover{
+	color: #5E1A02;
+}
+
+div .bloc17 p{
 	padding: 0px;
-	margin-left: -3px;
+	margin-left: 750px;
 	margin-right: 0px;
-	margin-top: -20px;
+	margin-top: 200px;
 	margin-bottom: 40px;
 }
