@@ -1,0 +1,98 @@
+@-webkit-keyframes example {
+   from { transform: scale(2.0); }
+   to   { transform: scale(.5); }
+}
+
+body{
+	/*background-color: black;*/
+}
+
+.textbox {
+   -webkit-animation-name: example;
+   -webkit-animation-duration: 3s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: .5s;             /* 0 is the default */
+   -webkit-animation-iteration-count: infinite;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   margin-left: 200px;
+   margin-top: 200px;
+   color: #1A22B5;
+   font-family: helvetica;
+   font-size: 150px;
+   height: 200px;
+   width: 200px;
+   opacity: .6;
+}
+
+.textbox2 {
+  color: red;
+  height: 300px;
+  position: relative;
+  min-width: 500px;
+  font-size: 72px;
+  font-family: georgia;
+
+}
+
+.textbox2:hover{
+  animation: slide 2s linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 100px;
+    top: 100px;
+  }
+  100% {
+    left: 488px;
+    top: 0;
+  }
+}
+
+.textbox3{
+	color: #690B59;
+	font-family: courier;
+	font-size: 200px;
+  	cursor: pointer;
+  	height: 500px;
+  	width: 500px;
+  	text-align: center;
+  	margin: 20px;
+  	left: 40px;
+  	top: 100px;
+  	position: relative;
+  	transition-property: color;
+  	transition-duration: 4s;
+  	transition-delay: .2s;
+  	transition-timing-function: linear;
+}
+
+.textbox3:hover {
+  color: #0FB51A;
+}
+
+/*.textbox{
+  font-color: #ff6655;
+  cursor: pointer;
+  height: 500px;
+  width: 1350px;
+  line-height: 95px;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 150px;
+  margin: 20px;
+  transition-property: font-color;
+  transition-duration: 2s;
+  transition-delay: .2s;
+  transition-timing-function: linear;
+}
+
+.textbox:hover {
+  font-color: #ffcc99;
+}*/

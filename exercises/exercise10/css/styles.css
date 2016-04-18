@@ -1,0 +1,48 @@
+/* This is the animation code. */
+@-webkit-keyframes example {
+   from { transform: scale(2.0); }
+   to   { transform: scale(.5); }
+}
+
+@-webkit-keyframes example2 {
+   from { transform: scale(.8); }
+   to   { transform: scale(5.0); }
+}
+
+body{
+   background-color: #04007D;
+}
+/* This is the element that we apply the animation to. */
+.colorbox {
+   -webkit-animation-name: example;
+   -webkit-animation-duration: .5s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: 0s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 2;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   margin-left: 200px;
+   margin-top: 200px;
+   height: 300px;
+   width: 300px;
+   background: #6FFF98;
+   border-radius: 300px;
+   opacity: .6;
+   animation-iteration-count: infinite;
+}
+
+.colorbox2{
+   -webkit-animation-name: example2;
+   -webkit-animation-duration: .1s;
+   -webkit-animation-timing-function: ease out; /* ease is the default */
+   -webkit-animation-delay: 1s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 2;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   margin-left: 600px;
+   margin-top: 200px;
+   height: 150px;
+   width: 150px;
+   background: #B5129A;
+   border-radius: 300px;
+   opacity: .6;
+   animation-iteration-count: infinite;
+}
