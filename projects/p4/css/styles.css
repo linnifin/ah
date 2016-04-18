@@ -3,8 +3,9 @@ body{
 }
 
 #container{
-	width: 1600px;
+	width: 1000px;
 	margin: 0px auto;
+	margin-left:100px;
 	height: 2500px;
 	float: center;
 }
@@ -18,13 +19,13 @@ body{
 @import url(https://fonts.googleapis.com/css?family=Teko:600);
 
 .bloc1{
-	width: 330px;
+	width: 240px;
 	height: 175px;
 	float: left;
 	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
-	font-size: 274px;
+	font-size: 200px;
 	font-color: black;
 	text-align: left;
 	line-height: 175px;
@@ -43,13 +44,13 @@ div .bloc1 p{
 }
 
 .bloc2{
-	width: 405px;
+	width: 315px;
 	height: 175px;
 	float: left;
 	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
-	font-size: 274px;
+	font-size: 200px;
 	font-color: black;
 	text-align: left;
 	line-height: 175px;
@@ -68,13 +69,13 @@ div .bloc2 p{
 }
 
 .bloc3{
-	width: 645px;
+	width: 475px;
 	height: 175px;
 	float: left;
 	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
-	font-size: 274px;
+	font-size: 200px;
 	color: black;
 	text-align: left;
 	line-height: 175px;
@@ -93,13 +94,13 @@ div .bloc3 p{
 }
 
 .bloc4{
-	width: 492px;
+	width: 312px;
 	height: 175px;
 	float: left;
 	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
-	font-size: 274px;
+	font-size: 200px;
 	color: black;
 	text-align: left;
 	line-height: 175px;
@@ -118,14 +119,14 @@ div .bloc4 p{
 }
 
 .bloc5{
-	width: 600px;
-	height: 262px;
+	width: 1000px;
+	height: 400px;
 	float: left;
 	margin-top: 180px;
 	margin-left: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
-	font-size: 700px;
+	font-size: 500px;
 	color: #FE1600;
 	text-align: left;
 	line-height: 300px;
@@ -134,7 +135,7 @@ div .bloc4 p{
 
 div .bloc5 p{
 	padding: 0px;
-	margin-left: -300px;
+	margin-left: -200px;
 	margin-right: 0px;
 	margin-top: 150px;
 	margin-bottom: 200px;
@@ -150,7 +151,7 @@ div .bloc5 p{
 }
 
 #container3{
-	width: 1500px;
+	width: 1300px;
 	height: 1900px;
 	z-index: 0;
 	float: left;
@@ -164,7 +165,7 @@ div .bloc5 p{
 }
 
 #container5{
-	width: 1600px;
+	width: 1300px;
 	height: 900px;
 	float: left;
 	margin-top: 15px;
@@ -182,7 +183,7 @@ div .bloc5 p{
 	height: 600px;
 	float: left;
 	margin-top: 100px;
-	margin-left: -360px;
+	margin-left: -160px;
 }
 
 #bloc6{
@@ -192,7 +193,7 @@ div .bloc5 p{
 	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
-	font-size: 274px;
+	font-size: 200px;
 	font-color: black;
 	text-align: left;
 	line-height: 175px;
@@ -208,13 +209,13 @@ div #bloc6 p{
 }
 
 .bloc7{
-	width: 482px;
+	width: 352px;
 	height: 175px;
 	float: left;
 	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
-	font-size: 274px;
+	font-size: 200px;
 	font-color: black;
 	text-align: left;
 	line-height: 175px;
@@ -234,13 +235,13 @@ div .bloc7 p{
 }
 
 .bloc8{
-	width: 310px;
+	width: 210px;
 	height: 175px;
 	float: left;
 	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
-	font-size: 274px;
+	font-size: 200px;
 	font-color: black;
 	text-align: left;
 	line-height: 175px;
@@ -259,13 +260,13 @@ div .bloc8 p{
 }
 
 .bloc9{
-	width: 70px;
+	width: 50px;
 	height: 175px;
 	float: left;
 	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
-	font-size: 274px;
+	font-size: 200px;
 	font-color: black;
 	text-align: left;
 	line-height: 175px;
@@ -284,13 +285,13 @@ div .bloc9 p{
 }
 
 .bloc10{
-	width: 478px;
+	width: 418px;
 	height: 175px;
 	float: left;
 	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
-	font-size: 274px;
+	font-size: 200px;
 	font-color: black;
 	text-align: left;
 	line-height: 175px;
@@ -309,13 +310,13 @@ div .bloc10 p{
 }
 
 .bloc11{
-	width: 510px;
+	width: 365px;
 	height: 175px;
 	float: left;
 	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
-	font-size: 274px;
+	font-size: 200px;
 	font-color: black;
 	text-align: left;
 	line-height: 175px;
@@ -334,13 +335,13 @@ div .bloc11 p{
 }
 
 .bloc12{
-	width: 205px;
+	width: 155px;
 	height: 175px;
 	float: left;
 	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
-	font-size: 274px;
+	font-size: 200px;
 	font-color: black;
 	text-align: left;
 	line-height: 175px;
@@ -359,13 +360,13 @@ div .bloc12 p{
 }
 
 .bloc13{
-	width: 540px;
+	width: 480px;
 	height: 175px;
 	float: left;
 	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
-	font-size: 274px;
+	font-size: 200px;
 	font-color: black;
 	text-align: left;
 	line-height: 175px;
@@ -384,13 +385,13 @@ div .bloc13 p{
 }
 
 .bloc14{
-	width: 375px;
+	width: 272px;
 	height: 175px;
 	float: left;
 	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
-	font-size: 274px;
+	font-size: 200px;
 	font-color: black;
 	text-align: left;
 	line-height: 175px;
@@ -409,13 +410,13 @@ div .bloc14 p{
 }
 
 .bloc15{
-	width: 480px;
+	width: 420px;
 	height: 175px;
 	float: left;
 	margin: 15px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
-	font-size: 274px;
+	font-size: 200px;
 	font-color: black;
 	text-align: left;
 	line-height: 175px;
@@ -440,7 +441,7 @@ div .bloc15 p{
 	margin: 100px;
 	font-family: 'Teko', sans-serif;
 	font-weight: 600;
-	font-size: 700px;
+	font-size: 450px;
 	color: #FE1600;
 	text-align: left;
 	line-height: 300px;
@@ -477,7 +478,7 @@ div .bloc16 p{
 
 div .bloc17 p{
 	padding: 0px;
-	margin-left: 750px;
+	margin-left: 350px;
 	margin-right: 0px;
 	margin-top: 200px;
 	margin-bottom: 40px;
