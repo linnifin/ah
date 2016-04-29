@@ -232,12 +232,22 @@ it different?
 	position: absolute;
 	top: 2200px;
 	left: 10px;
+	z-index: 2;
 	animation-name: slide5;
   	animation-duration: 5s;
   	animation-timing-function: ease-in-out;
   	animation-delay: .5s;
   	animation-iteration-count: infinite;
   	animation-direction: alternate;
+}
+
+.bright5text{
+	width: 990px;
+	height: 333px;
+	position: absolute;
+	top: 2275px;
+	left: 165px;
+	z-index: 1;
 }
 
 .bright5cover{
@@ -254,13 +264,61 @@ it different?
 	opacity: 0;
 }
 
+@keyframes slide6 {
+  0% {
+    left: 838px;
+    top: 2750px;
+  }
+  100% {
+    left: 10px;
+    top: 2750px;
+  }
+}
+
 .school6{
 	width: 500px;
 	height: 500px;
 	position: absolute;
 	top: 2750px;
 	left: 838px;
+	z-index: 2;
+	animation-name: slide6;
+  	animation-duration: 5s;
+  	animation-timing-function: ease-in-out;
+  	animation-delay: .5s;
+  	animation-iteration-count: infinite;
+  	animation-direction: alternate;
 }
+
+.school6text{
+	width: 1271px;
+	height: 333px;
+	position: absolute;
+	top: 2825px;
+	left: 10px;
+	z-index: 1;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 64px;
+	text-align: center;
+}
+
+/*.school6text{
+	font-color: #940008;
+}
+
+.school6cover{
+	width: 1328px;
+	height: 500px;
+	position: absolute;
+	top: 2750px;
+	left: 10px;
+	z-index: 3;
+	background-color: #E8E8E8;
+}
+
+.school6cover:hover{
+	opacity:.0;
+}*/
 
 #text{
 	font-family: 'Mallanna', sans-serif;
