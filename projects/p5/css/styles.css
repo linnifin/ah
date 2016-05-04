@@ -18,6 +18,258 @@ it different?
 	background: #E8E8E8;
 }
 
+#container3{
+	width: 3100px;
+	float: left;
+	height: 4000px;
+	background: #E8E8E8;
+}
+
+#container4{
+	width:1350px;
+	height: 650px;
+	float: left;
+	background: #E8E8E8;
+}
+
+.blu{
+	width: 281px;
+	height: 281px;
+	position: absolute;
+	z-index: 2;
+	top: 25px;
+	left: 25px;
+}
+
+.serious{
+	width: 281px;
+	height: 281px;
+	position: absolute;
+	z-index: 2;
+	top: 25px;
+	left: 1059px;
+}
+
+.wow{
+	width: 281px;
+	height: 281px;
+	position: absolute;
+	z-index: 2;
+	top: 355px;
+	left: 25px;
+}
+
+.flash{
+	width: 281px;
+	height: 281px;
+	position: absolute;
+	z-index: 2;
+	top: 355px;
+	left: 1059px;
+}
+
+.thank{
+	width: 717px;
+	height: 149px;
+	position: absolute;
+	z-index: 1;
+	top: 250px;
+	left: 325px;
+}
+
+.collections{
+	width: 2950px;
+	height: 344px;
+	position: absolute;
+	z-index: 1;
+	left: 60px;
+	top: 1400px;
+}
+
+.continue{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	z-index: 1;
+	left: 2600px;
+	top: 200px;
+}
+
+@keyframes move1 {
+  0% {
+    left: 10px;
+    top: 10px;
+  }
+
+  100% {
+    left: 10px;
+    top: 3500px;
+  }
+}
+
+.skirt{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 2;
+	animation-name: move1;
+  	animation-duration: 10s;
+  	animation-delay: 1s;
+  	animation-iteration-count: infinite;
+}
+
+@keyframes move2 {
+  0% {
+    left: 520px;
+    top: 10px;
+  }
+
+  50%{
+  	left: 520px;
+  	top: 1200px;
+  }
+
+  100% {
+    left: 520px;
+    top: 3500px;
+  }
+}
+
+.pink{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 10px;
+	left: 520px;
+	z-index: 2;
+	animation-name: move2;
+  	animation-duration: 9s;
+  	animation-delay: 1.5s;
+  	animation-iteration-count: infinite;
+}
+
+@keyframes move3 {
+  0% {
+    left: 1040px;
+    top: 10px;
+  }
+
+  100% {
+    left: 1040px;
+    top: 3500px;
+  }
+}
+
+.purple{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 10px;
+	left: 1040px;
+	z-index: 2;
+	animation-name: move3;
+	animation-duration: 15s;
+  	animation-delay: 2.5s;
+  	animation-iteration-count: infinite;
+}
+
+@keyframes move4 {
+  0% {
+    left: 1560px;
+    top: 10px;
+  }
+
+  50% {
+  	left: 1560px;
+  	top: 800px;
+  }
+
+  100% {
+    left: 1560px;
+    top: 3500px;
+  }
+}
+
+.tie{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 10px;
+	left: 1560px;
+	z-index: 2;
+	animation-name: move4;
+	animation-duration: 8s;
+  	animation-delay: 3s;
+  	animation-iteration-count: infinite;
+}
+
+@keyframes move5 {
+  0% {
+    left: 2080px;
+    top: 10px;
+  }
+
+  100% {
+    left: 2080px;
+    top: 3500px;
+  }
+}
+
+.winter{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 10px;
+	left: 2080px;
+	z-index: 2;
+	animation-name: move5;
+	animation-duration: 12s;
+  	animation-delay: 3.5s;
+  	animation-iteration-count: infinite;
+}
+
+@keyframes move6 {
+  0% {
+    left: 2600px;
+    top: 10px;
+  }
+
+  50% {
+  	left: 2600px;
+  	top: 1900px;
+  }
+
+  100% {
+    left: 2600px;
+    top: 3500px;
+  }
+}
+
+.scarf{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 10px;
+	left: 2600px;
+	z-index: 2;
+	animation-name: move6;
+	animation-duration: 11s;
+  	animation-delay: 4s;
+  	animation-iteration-count: infinite;
+}
+
+.hidden{
+	width: 3090px;
+	height: 550px;
+	position: absolute;
+	top: 3450px;
+	left: 10px;
+	z-index: 3;
+	background-color: #E8E8E8;;
+}
+
 @keyframes slide {
   0% {
     left: 10px;
@@ -295,7 +547,7 @@ it different?
 	height: 333px;
 	position: absolute;
 	top: 2825px;
-	left: 10px;
+	left: 49oi0px;
 	z-index: 1;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 64px;
